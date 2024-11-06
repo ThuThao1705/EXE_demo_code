@@ -1,0 +1,81 @@
+/* Sidebar */
+.sidebar {
+    background-color: #f7fafc; /* Nền sáng nhẹ cho Sidebar */
+  }
+  
+  .sidebar .menu-item:hover {
+    background-color: #f0f4f8; /* Hiệu ứng hover sáng hơn */
+  }
+  
+  .sidebar .active-tab {
+    background-color: #3b82f6; /* Màu xanh cho tab đã chọn */
+    color: white;
+  }
+  
+  /* Profile Section */
+  .profile-container {
+    background-color: #ffffff; /* Nền trắng cho các section */
+  }
+  
+  .profile-container input,
+  .profile-container select,
+  .profile-container textarea {
+    border-color: #e2e8f0; /* Viền nhạt cho các input */
+  }
+  
+  .profile-container input:focus,
+  .profile-container select:focus,
+  .profile-container textarea:focus {
+    border-color: #3b82f6; /* Viền màu xanh khi focus */
+    outline: none;
+  }
+  
+  .profile-container button {
+    background-color: #3b82f6; /* Màu xanh cho nút */
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .profile-container button:hover {
+    background-color: #2563eb; /* Màu xanh đậm hơn khi hover */
+  }
+  
+  /* Edit / Save Button */
+  .profile-container .edit-save-btn {
+    background-color: #2563eb; /* Màu xanh đậm cho nút */
+    color: white;
+  }
+  
+  .profile-container .edit-save-btn:hover {
+    background-color: #1d4ed8; /* Màu xanh đậm hơn khi hover */
+  }
+  
+  /* Borders and Shadows */
+  .input-group input,
+  .input-group textarea {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm bóng cho các input */
+  }
+  
+  .profile-container .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-container label {
+    color: #4b5563; /* Màu xám cho nhãn */
+  }
+  
+  /* Password Section */
+  .password-section input {
+    border-color: #e2e8f0; /* Viền nhạt cho password fields */
+  }
+  
+  .password-section input:focus {
+    border-color: #3b82f6; /* Viền xanh khi focus */
+  }
+  
+  .password-section button {
+    background-color: #f43f5e; /* Màu đỏ nhạt cho button */
+    color: white;
+  }
+  
